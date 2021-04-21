@@ -1,0 +1,15 @@
+*{
+    -fx-primary: #282A36;
+    -fx-text-color: #E1F4EF;
+
+}
+#side_bar{
+    -fx-background-color: -fx-primary;
+}
+.button{
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-text-color;
+}
+.button:hover{
+    -fx-background-color: #313436;
+}

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="notebook:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/notebook_jar</output-path>
+    <root id="archive" name="notebook.jar">
+      <element id="module-output" name="notebook" />
+      <element id="extracted-dir" path="D:/library/fontawesomefx-8.9 (2).jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

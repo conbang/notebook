@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane prefHeight="454.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MediaView fx:id="video" fitHeight="350.0" fitWidth="435.0" layoutX="14.0" layoutY="14.0" />
+      <Slider fx:id="skip" layoutX="26.0" layoutY="372.0" prefHeight="14.0" prefWidth="418.0" />
+      <FontAwesomeIconView fx:id="play" glyphName="PAUSE" layoutX="212.0" layoutY="417.0" size="25" wrappingWidth="12.0" />
+      <FontAwesomeIconView fx:id="back" glyphName="FAST_BACKWARD" layoutX="160.0" layoutY="418.0" size="25" wrappingWidth="12.0" />
+      <FontAwesomeIconView fx:id="next" glyphName="FAST_FORWARD" layoutX="259.0" layoutY="417.0" size="25" wrappingWidth="12.0" />
+      <Slider fx:id="volume" layoutX="301.0" layoutY="400.0" prefHeight="14.0" prefWidth="95.0" />
+   </children>
+</AnchorPane>
